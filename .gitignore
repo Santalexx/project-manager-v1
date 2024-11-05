@@ -1,7 +1,6 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
 .Python
 build/
@@ -18,7 +17,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # Django
 *.log
@@ -26,70 +24,41 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
-staticfiles/
 
-# Environment Variables
+# Environment
 .env
-.env.prod
-.env.local
 .venv
 env/
 venv/
 ENV/
-env.bak/
-venv.bak/
 
 # VS Code
 .vscode/
 *.code-workspace
-.history
 
 # PyCharm
 .idea/
 *.iml
 *.iws
-.idea_modules/
 
-# Node & React
-node_modules/
-/frontend/build
-/frontend/.env
-/frontend/.env.local
-/frontend/.env.development.local
-/frontend/.env.test.local
-/frontend/.env.production.local
+# Node (solo en frontend)
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Database
-*.sqlite3
-*.db
-*.sql
-
-# System files
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-
-# Project specific
-media/
-static/
-logs/
-temp/
-*.bak
-*.tmp
-*.temp
-
-# Coverage and Test
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
