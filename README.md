@@ -47,8 +47,8 @@ Antes de comenzar, asegúrate de tener instalado:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/project-management.git
-   cd project-management
+   git clone https://github.com/Santalexx/project-manager-v1.git
+   cd project-manager-v1
    ```
 
 2. Crea y activa el entorno virtual:
@@ -96,8 +96,8 @@ Antes de comenzar, asegúrate de tener instalado:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/project-management.git
-   cd project-management
+   git clone https://github.com/Santalexx/project-manager-v1.git
+   cd project-manager-v1
    ```
 
 2. Crea y activa el entorno virtual:
@@ -165,16 +165,3 @@ project_management/
 
 - Este es un proyecto educativo/desarrollo
 - La configuración actual está optimizada para desarrollo local
-- Se recomienda cambiar las claves secretas antes de usar en producción
-
-## Contribución
-
-1. Haz un Fork del proyecto
-2. Crea una rama para tu función (`git checkout -b feature/AmazingFeature`)
-3. Realiza tus cambios y haz commit (`git commit -m 'Add AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
