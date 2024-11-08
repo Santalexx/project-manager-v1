@@ -1,15 +1,21 @@
-# Backend Dependencies
-Django==5.1.2
-django-crispy-forms==2.1
-crispy-bootstrap5==2024.2
-djangorestframework==3.14.0
-fastapi==0.109.1
-uvicorn==0.27.0
-psycopg2-binary==2.9.9
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-python-dotenv==1.0.0
-django-cors-headers==4.3.1
-Pillow==10.2.0
-django-allauth==0.61.0
+# Dependencias principales del Framework Django
+Django==5.1.2                    # Framework web principal
+django-crispy-forms==2.1         # Para mejorar el renderizado de formularios
+crispy-bootstrap5==2024.2        # Integración de Crispy Forms con Bootstrap 5
+djangorestframework==3.14.0      # Framework para crear APIs REST
+
+# Framework FastAPI y servidor ASGI
+fastapi==0.109.1                 # Framework alternativo para APIs
+uvicorn==0.27.0                 # Servidor ASGI para FastAPI
+
+# Base de datos y autenticación
+psycopg2-binary==2.9.9          # Adaptador PostgreSQL para Python
+python-jose[cryptography]==3.3.0 # Para manejo de JWT (JSON Web Tokens)
+passlib[bcrypt]==1.7.4          # Para hash de contraseñas
+python-multipart==0.0.6         # Para manejo de formularios multipart
+
+# Utilidades y herramientas
+python-dotenv==1.0.0            # Para manejo de variables de entorno
+django-cors-headers==4.3.1       # Para manejo de CORS en Django
+Pillow==10.2.0                  # Para procesamiento de imágenes
+django-allauth==0.61.0          # Para autenticación social y manejo de cuentas
